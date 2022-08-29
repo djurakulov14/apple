@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+    font-family: "SF Pro Display";  
+}
+hr{
+    border-bottom: none;
+    border: 0.1px #E8E8ED solid;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-bot {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+}
+.header-left a{
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+}
+.header-right {
+    font-size: 17px;
+    font-weight: 500;
+}
+.header-bot-left{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+}
+.header-bot-mid{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+}
+.header-bot-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+}
+.header-bot-left img{
+    margin:0 5px;
+}
+.header-bot-mid img{
+    margin:0 5px;
+}
+.header-bot-right img{
+    margin:0 5px;
+}
+.bot {
+    display: flex;
+    margin-top: 200px;
+}
+.model{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.model p {
+    color: #6E6E73;
+}
+.model span {
+    color: black;
+}
+.ip13pro{
+    border-radius: 15px;
+    width: 340px;
+    height: 100px;
+    border:#E8E8ED 2px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.ip13pro:hover{
+border:blue 2px solid;
+}
+.left p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.left span {
+    font-size: 12px;
+}
+.right{
+    font-size: 12px;
+    text-align: right;
+    line-height: 16px;
+}
+.color{
+    margin-top:200px;
+}
+.text{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.choose{
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+}
+.btns img{
+    width: 32px;
+    height: 32px;
+}
+.btns button{
+    border-radius: 100px;
+    border:#E8E8ED  2px solid;
+    overflow: hidden;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    transition: 200ms;
+}
+.btns{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+.btns button:hover{
+    border:blue  2px solid;
+}
+
+.photo1{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-alpinegreen?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1655144177553);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.photo2{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-silver?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1654897428563);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.photo3{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-gold?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1654897336104);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.photo4{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-graphite?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1654897380792);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.photo5{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-storage-select-202207-6-7inch-sierrablue?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1655144562421);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.photo{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-model-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1654897043425);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+}
